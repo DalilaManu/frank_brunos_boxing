@@ -23,6 +23,11 @@ dependencies {
 
     // This dependency is used by the application.
     implementation(libs.guava)
+
+    // ASCII table library
+    implementation("com.github.freva:ascii-table:1.2.0")
+
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
@@ -34,7 +39,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.App"
+    mainClass = "edu.teamrocket.brunosbox.Brunosbox"
 }
 
 tasks.named<Test>("test") {
