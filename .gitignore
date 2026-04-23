@@ -54,6 +54,7 @@ release.properties
 build/
 !gradle-wrapper.jar
 gradle-app.setting
+gradle/wrapper/gradle-wrapper.jar
 
 # ============================
 #   INTELLIJ IDEA
